@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif ;
+}
+
+.form{
+    height:100%;
+    width :100%;
+    background: linear-gradient(rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url("images/1.jpg");
+    background-position: center;
+    background-size:cover;
+    position:absolute;
+}
+
+
+.form-box{
+    width:380px;
+    height:480px;
+    position:relative;
+    margin:6% auto;
+    background: #fff;
+    padding:5px;
+    border:2px solid blueviolet;
+    overflow: hidden;
+}
+
+form div{
+    margin:11px;
+    display: inline;
+}
+
+.button-box{
+    width:111px;
+    margin:35px auto;
+    position:relative;
+    box-shadow:0 0 20px 9px #ff61241f;
+    border-radius:30px;
+}
+
+.toggle-btn{
+    padding:10px 30px;
+    cursor:pointer;
+    background:transparent;
+    border:0;
+    outline:none;
+    position:relative;
+}
+
+#btn{
+    top:0;
+    left:0;
+    position:absolute;
+    width:110px;
+    height:100%;
+    background:linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 30px;
+    transition:0.5s;
+}
+
+.input-group{
+    top:180;
+    position:absolute;
+    width:280px;
+    transition:.5s;
+   
+}
+
+.input1{
+    top:54;
+    position:absolute;
+    width:280px;
+    transition:.5s;
+}
+
+.input-field{
+    width: 218px;
+    padding: 15px 0;
+    margin: 12px 12px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid peru;
+    outline: none;
+    background: transparent;
+   
+}
+/* .input input{
+    width: 240px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 114, 0);
+} */
+
+.input-register{
+    width: 201px;
+    padding: 2px 0px;
+    margin: 15px 13px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+
+.submit-btn{
+    /* position: absolute; */
+    width:85%;
+    padding:12px 98px;
+    cursor:pointer;
+    margin:  auto;
+    background:linear-gradient(to right,green,yellow);
+    border:0;
+    outline:none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin:30px 10px 30px 0;
+}
+
+p{
+    margin-top: 27px;
+}
+
+span{
+    color:#777;
+    font-size:12px;
+    bottom:116px;
+    position: absolute;
+}
+
+#login{
+    left:50px;
+    margin:30px;
+    top:63px;
+}
+   
+
+#register{
+    left:500px;
+    margin:30px;
+    bottom:50px;
+}
+
+#register div{
+    font-family: sans-serif;
+    margin-bottom:10px;
+}
